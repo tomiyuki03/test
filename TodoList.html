@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<div class="wrapper">
+  <head>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href="./TodoList .css">
+  </head>
+  <body>
+  <h1>TODOリスト</h1>
+  <div class="input-area">
+    <div class="task-area">
+      <label for="task-input">タスク(必須)</label>
+      <!--タスクの入力フォーム-->
+      <input type="text" class="task-input" id="task-input">
+　　　　<!--エラーメッセージ-->
+      <div class="task_error-msg">タスクを入力してください!</div>
+    </div>
+    <div class="subject-area">
+      <label for="subject-input">科目(必須)</label>
+      <!--タスクの入力フォーム-->
+      <input type="text" class="subject-input" id="subject-input">
+　　　　<!--エラーメッセージ-->
+      <div class="subject_error-msg">科目を入力してください!</div>
+    </div>
+    <div class="date-area">
+      <label for="date">期日</label>
+      <!--期日の入力フォーム-->
+      <input type="date" class="date" id="date">
+    </div>
+　　　 <!--追加ボタン-->
+    <button class="btn add-btn">追加</button>
+  </div>
+  <hr color="blue", size="4px">
+  <div class="display-task">
+    <!--タスクを表示する-->
+    <ul class="task-list"></ul>
+  </div>
+</div>
+<script src="./TodoList.js"></script>
+</body>
+</heml>
