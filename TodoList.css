@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  .btn {
+    color: #FFF;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  body {
+    background: #f1f1f1;
+  }
+  
+  .wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 20px 0;
+    max-width: 1000px;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 60px;
+  }
+  
+  .input-area {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  input {
+    border: 1px solid #CCC;
+    outline: none;
+    border-radius: 5px;
+  }
+  
+  .task-area {
+    width: 70%;
+  }
+  
+  .subject-area{
+    width: 70%;
+  }
+
+  .date-area {
+    width: 15%;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .task-input {
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .task_error-msg {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    display: none;
+  }
+  
+  .task_error-msg.show {
+    display: block;
+  }
+
+  .subject-input {
+    font-size: 18px;
+    padding: 10px;
+    margin-right: 10px;
+    width: 100%;
+  }
+
+  .subject_error-msg {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    display: none;
+  }
+  
+  .subject_error-msg.show {
+    display: block;
+  }
+  
+  .date {
+    border: 1px solid #CCC;
+    padding: 12px 10px;
+  }
+  
+  .add-btn {
+    background: #3ca83c;
+    margin-top: 20px;
+  }
+  
+  .display-task {
+    text-align: left;
+    width: 100%;
+    margin: 100px auto 0 auto;
+  }
+  
+  .task-item {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    padding: 8px 20px;
+    transition: 0.3s linear;
+  }
+  
+  .item-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .item-date {
+    background: #000000;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .complete {
+    background: #ffef64;
+  }
+  
+  .delete-btn {
+    background: #e95656;
+  }
+  
+  .complete-btn {
+    background: #0881f1;
+  }
